@@ -1,17 +1,15 @@
-# News first reported Wednesday 18 November 2026 (sources: BBC, Al Jazeera, Reuters via Straits Times, Business Standard, Indian Express, Economic Times, SBS)
-1. Trump in Manila for ASEAN/Quad summits with Albanese, Modi, Japan's Takaichi; Trump-Putin-Xi trilateral summit at APEX in Shenzhen raising 'Yalta-style' fears. (BBC, Reuters, news.com.au)
-2. Five tankers reported hit around Strait of Hormuz; blasts heard on Qeshm Island; IRGC claimed drone strike on US radar at Bahrain's Sheikh Isa Air Base; Bahraini/US diplomats meet. (Al Jazeera)
-3. Houthis say they targeted Saudi Arabia's East-West oil pipeline with five drones. (Al Jazeera)
-4. Ukraine struck Kerch Bridge again (2nd time in 2 days); road section damaged; also Kyiv bridges hit by Russian strikes; Russia: plane crash in Siberia (Kemerovo) kills all 19 aboard. (BBC, SBS)
-5. US loses measles elimination status after 26 years: 5,400+ cases, 10-12 deaths. (BBC, SBS)
-6. Nvidia turmoil: Jensen Huang wants his job back after resignation over affair scandal; Trump backs return; board creates national-security panel; Megaspeed (Singapore) probed over Nvidia AI chips to China; new US AI-chip export licence rules from Nov 19. (Reuters, BBC)
-7. GTA VI released after 13 years — gaming frenzy, millions of pre-orders. (Business Standard)
-8. Mass website compromise: CNN, Zoom, IKEA, HSBC among 178 sites subverted to steal crypto and infect iPhones. (Economic Times)
-9. COP31: Nepal seeks billions for flood recovery, $20m pledged. (Business Standard)
-10. Leonid meteor shower peaks Nov 17-18. (Al Jazeera)
-11. Sports: Germany 5-0 Netherlands (Nations League, Klopp); Socceroos lose 0-2 to Jordan; IPL: MS Dhoni retires to become CSK mentor; RR trade for Shami. (Al Jazeera, SBS, Economic Times)
-12. Nvidia Q3 earnings beat: revenue $115.8B vs $109.1B est; Q4 forecast ~$130B; shares +3.6% after hours; SEC opened civil investigation into disclosures; no China data-centre sales in forecast. (Capital Brief/WSJ/Reuters)
-13. Nvidia CEO search: board hired Heidrick & Struggles (candidates incl. Arm CEO Rene Haas); Wachtell leading independent inquiry; CFO Colette Kress interim CEO. (WSJ)
-14. US warplanes struck an Iranian missile launch site on Qeshm Island; five tankers hit near Hormuz; Qatar mediated; Pezeshkian says Tehran 'seriously pursuing' diplomatic exit. (Bloomberg/CNBC)
-15. Markets 18 Nov: Brent ~$93 (fell a fifth this month), WTI ~$86; gold hit 14-month low below $3,810/oz; silver ~$46.6; Fed officials (Williams, Musalem) signal several more rate hikes; dollar near 19-month high; 10y yield near 5%. (Reuters/CNBC/Moneycontrol)
-16. UK MPs' report (18 Nov): close AI safety gaps to secure £400bn AI opportunity; calls for AI Safety and Security Bill; hearings with OpenAI, DeepMind, Anthropic, Meta. (UK Parliament)
+# News Headlines - 18 November 2026
+
+- Trump meets Albanese, Modi, and Takaichi at ASEAN‑Quad summit in Manila, discussing AI, maritime security and critical minerals; Modi proposes free e‑visas.
+- In Shenzhen, APEC hosts a trilateral summit of Trump, Putin and Xi, sparking "Yalta‑style" concerns; Albanese to meet Xi.
+- Ukraine strikes the Kerch Bridge for the second time in two days; Kyiv reports bridge attacks; Siberian plane crash kills 19.
+- U.S. loses measles elimination status after 26 years as cases top 5,400 and 12 deaths are recorded.
+- Nvidia reports Q3 revenue $115.8 B beating forecasts; CEO search underway; SEC civil probe; Q4 guidance $130 B; shares rise 3.6% after hours.
+- U.S. requires AI‑chip export licences for five countries, including Singapore and Malaysia, effective 19 Nov.
+- Hormuz sees five tankers hit; U.S. strikes Qeshm missile site; IRGC claims drone hit U.S. radar in Bahrain; Houthis target Saudi pipeline.
+- Markets: Brent ~ $93, WTI ~ $86, gold at 14‑month low $3,822, dollar near 19‑month high; Fed hints at more rate hikes.
+- GTA VI launches after 13‑year development; 178 sites (CNN, Zoom, IKEA, HSBC) hacked for crypto and iPhone malware.
+- UK MPs release AI safety report highlighting £400 bn opportunity and call for an AI Safety Bill.
+- COP31: Nepal seeks billions for flood recovery, with $20 m pledged so far.
+- Sports: Germany beats Netherlands 5‑0 in Nations League; Socceroos lose 0‑2 to Jordan; Dhoni retires from IPL to coach CSK.
+- Leonid meteor shower peaks on 17‑18 Nov.
