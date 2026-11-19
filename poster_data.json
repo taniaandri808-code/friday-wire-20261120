@@ -1,0 +1,110 @@
+{
+  "day": "Wednesday",
+  "date": "18 November 2026",
+  "kicker": "ONE DAY OF WORLD NEWS, ONE PICTURE",
+  "stats": "33 STORIES · 12 COUNTRIES · ALL FROM WEDNESDAY 18 NOVEMBER 2026",
+  "heroes": [
+    {
+      "tag": "DIPLOMACY · APEC SHENZHEN",
+      "claim": "CONFIRMED — AP",
+      "headline": "Trump and Putin shake hands as Xi opens APEC in Shenzhen",
+      "body": "The US and Russian presidents meet in person for the first time since 2025; Xi defends free trade and warns against 'unilateralism' as a historic three-way summit is set for Thursday."
+    },
+    {
+      "tag": "AMERICAS · VENEZUELA",
+      "claim": "CONFIRMED — AP",
+      "headline": "US defence chief in surprise Caracas visit signs military cooperation deal",
+      "body": "Pete Hegseth meets acting President Delcy Rodríguez in Caracas; the agreement targets threats from 'foreign actors', ahead of a planned stop in Colombia on security cooperation."
+    },
+    {
+      "tag": "EUROPE · UKRAINE WAR",
+      "claim": "CLAIM — KYIV / CONFIRMED — AP",
+      "headline": "Russia hammers Odesa city centre; Ukraine says drones hit two oil refineries",
+      "body": "Three morning strikes on central Odesa kill 4 and injure 9, the regional governor says; Kyiv's General Staff confirms overnight hits on the Ilsky and Afip refineries in Krasnodar Krai."
+    }
+  ],
+  "cards": [
+    {
+      "icon": "virus",
+      "tag": "AMERICAS · HEALTH",
+      "claim": "CONFIRMED — CDC",
+      "headline": "US loses measles-free status",
+      "body": "5,400 cases and 12 deaths across 31 states; CDC warns importation risk from Europe surge as national MMR rates slip to 91%."
+    },
+    {
+      "icon": "chip",
+      "tag": "ASIA · TECH",
+      "claim": "CONFIRMED — NVIDIA",
+      "headline": "Nvidia Q3 revenue $115.8bn",
+      "body": "Beats by $4.2bn on Blackwell demand; data-center sales double YoY but China H20 export curbs weigh on Q4 guidance."
+    },
+    {
+      "icon": "ballot",
+      "tag": "AMERICAS · POLITICS",
+      "claim": "CONFIRMED — AP",
+      "headline": "Democrat Peltola wins Alaska Senate race",
+      "body": "Mary Peltola flips the seat, leaving two midterm races still uncalled nearly two weeks after election day."
+    },
+    {
+      "icon": "gamepad",
+      "tag": "CULTURE · GAMING",
+      "claim": "CONFIRMED — AP",
+      "headline": "GTA VI launch hit by glitches",
+      "body": "Rockstar's 13-years-in-the-making sequel crashes on consoles at launch; servers buckle under record demand."
+    },
+    {
+      "icon": "cloud",
+      "tag": "TECH · OUTAGE",
+      "claim": "CONFIRMED — APPLE",
+      "headline": "Apple iCloud, Pay and App Store outage",
+      "body": "Services wobble for hours on the day of a nationwide FEMA alert test; several bank apps report failures too."
+    },
+    {
+      "icon": "gavel",
+      "tag": "CULTURE · MEXICO",
+      "claim": "CONFIRMED — EL PAÍS",
+      "headline": "Mexico halts Christie's auction of a Frida Kahlo",
+      "body": "The government asks the auction house to clarify provenance of 'Congress of Peoples for Peace', believed to have left Mexico in 1952."
+    }
+  ],
+  "also_on": [
+    ["EU offers Ukraine €45bn", "2027 support approved by the European Commission"],
+    ["Bukele confirms airstrike", "Haitian gang boss Jeff Larose's mansion destroyed"],
+    ["Russia 'false-flag' plot", "staged attack planned near Kaliningrad border — Rzeczpospolita"],
+    ["Sabotage wave on arms makers", "low-intensity attacks up sharply since summer"],
+    ["Sheinbaum meets Trump", "Mexico seeks steel and aluminium tariff relief"],
+    ["Xi, Sheinbaum herald 'new era'", "China and Mexico sign cooperation pacts"],
+    ["Foreign students shun the US", "new international enrolment down 15%"],
+    ["Immigrants paid in $14.6tn", "Cato study finds 124 years of fiscal surplus"],
+    ["ICC Rohingya ruling due", "Myanmar genocide verdict expected November 19"],
+    ["Brooklyn collapse probe", "history of violations behind building that killed 8"],
+    ["Pattinson is the new Bond", "Amazon MGM names its 007 for the next reboot"],
+    ["Five years after #FreeBritney", "the conservatorship fight still echoes"],
+    ["Cornyn blocks DOJ nominee", "Texas judicial vacancy stays open"],
+    ["Muslims to pass Christians by 2035", "Pew projects Islam becomes largest faith"],
+    ["Robots serve coffee in Shenzhen", "ice-cream and latte kiosks at the tech hub"],
+    ["New Oleshky-style aid mission", "Ukraine and Russia negotiate a second operation"],
+    ["NSA internal network down", "agency confirms an hours-long outage"],
+    ["Colombia's 'Christ the King' row", "De la Espriella phrase stirs old memories"],
+    ["FEMA alert test", "nationwide emergency message hits phones"],
+    ["Anthropic IPO details", "key terms of the AI lab's listing emerge"],
+    ["Clancy to face retrial", "the author's long-running suit returns to court"],
+    ["United resolves outage", "airline systems back after grounding"],
+    ["Medicare premiums rising", "2027 Part B costs climb again"],
+    ["Thanksgiving travel rush", "record airport crowds expected next week"]
+  ],
+  "map": {
+    "legend": ["Americas", "Europe", "Middle East", "Asia"],
+    "pins": [
+      {"x": 200, "y": 140, "c": 0}, {"x": 218, "y": 132, "c": 0}, {"x": 95, "y": 95, "c": 0},
+      {"x": 240, "y": 225, "c": 0}, {"x": 250, "y": 195, "c": 0},
+      {"x": 500, "y": 112, "c": 1}, {"x": 492, "y": 100, "c": 1}, {"x": 455, "y": 88, "c": 1},
+      {"x": 505, "y": 140, "c": 2},
+      {"x": 655, "y": 175, "c": 3}, {"x": 690, "y": 215, "c": 3}, {"x": 620, "y": 205, "c": 3},
+      {"x": 600, "y": 190, "c": 3}
+    ]
+  },
+  "date_check": "Left out on purpose because they broke on Tuesday 17 November, not Wednesday: the Kerch Bridge road-span strike (17 Nov), the An-12 crash near Kemerovo that killed all 19 aboard (17 Nov), the Prague head-on train collision (17 Nov), Mozambique's Mondlane going on trial (17 Nov), UK sanctions on eight settlement builders (17 Nov), and Iran's drones at the US radar in Bahrain with US strikes on Qeshm (17 Nov). Not yet: the full Trump–Putin–Xi trilateral is due Thursday 19 November, and the ICC's Myanmar ruling is expected the same day.",
+  "footer": "Every story here happened on, or was first reported on, Wednesday 18 November 2026 (or overnight into it). CLAIM = one side's account, not independently confirmed. Sources: AP · Reuters · AFP · Euronews · El País · The Guardian · NPR · PBS · Kyiv Independent · Al Jazeera · CNN · Yahoo News.",
+  "sources": "AP · REUTERS · AFP · EURONEWS · EL PAÍS · GUARDIAN · NPR · PBS · KYIV INDEPENDENT · AL JAZEERA"
+}
