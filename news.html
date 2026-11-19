@@ -13,26 +13,29 @@ h1.date .amp{color:#FFB000}
 .kpi:last-child{border-right:0}
 .kpi b{display:block;font-size:25px;color:#FFB000}
 .kpi span{font-size:11px;color:#bbb}
-.leads{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:12px}
+.leads{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:12px}
 .lead{border:1px solid #3a3f45;background:#161A1E}
-.lead .art{height:160px}
+.lead .art{height:150px}
 .lead .cap{background:#FFB000;color:#111;font-size:11px;font-weight:800;letter-spacing:1px;padding:5px 8px}
 .lead .tag{display:inline-block;font-size:10px;font-weight:800;color:#111;background:#5FD9D9;padding:2px 8px;margin:8px 0 4px}
-.lead h2{font-family:Georgia,serif;font-size:22px;line-height:1.12;padding:0 4px;color:#fff}
-.lead p{font-size:12px;color:#b8b4ac;padding:6px 4px 10px;line-height:1.35}
-.cards{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:14px}
+.lead h2{font-family:Georgia,serif;font-size:19px;line-height:1.15;padding:0 8px 4px;color:#fff}
+.lead p{font-size:11px;color:#b8b4ac;padding:0 8px 10px;line-height:1.4}
+.cards{display:grid;grid-template-columns:repeat(6,1fr);gap:9px;margin-top:14px}
 .card{border:1px solid #3a3f45;background:#161A1E}
-.card .art{height:72px}
+.card .art{height:68px}
 .card .body{padding:6px 7px 8px}
 .card .tag{font-size:9px;font-weight:800;color:#111;background:#5FD9D9;padding:1px 6px}
-.card h3{font-family:Georgia,serif;font-size:13px;line-height:1.15;margin:5px 0 3px;color:#fff}
-.card p{font-size:10px;color:#b0aca4;line-height:1.3}
+.card h3{font-family:Georgia,serif;font-size:12px;line-height:1.18;margin:5px 0 3px;color:#fff}
+.card p{font-size:9.5px;color:#b0aca4;line-height:1.35}
 .num{font-size:10px;font-weight:800;color:#FFB000}
 .bottom{display:grid;grid-template-columns:1fr 2.1fr;gap:14px;margin-top:14px}
 .mapbox,.ticker{border:1px solid #3a3f45;padding:8px;background:#161A1E}
 .mapbox h4,.ticker h4{font-size:13px;letter-spacing:2px;color:#FFB000;border-bottom:2px solid #FFB000;padding-bottom:4px;margin-bottom:6px}
+.mapbox ol{list-style:none;counter-reset:sec}
+.mapbox li{position:relative;padding:4px 0 4px 26px;font-size:11px;color:#ddd;border-bottom:1px dotted #444}
+.mapbox li::before{counter-increment:sec;content:counter(sec);position:absolute;left:0;top:4px;width:18px;height:18px;background:#FFB000;color:#111;font-weight:800;font-size:10px;border-radius:3px;display:flex;align-items:center;justify-content:center}
 .ticker ul{list-style:none;columns:2;column-gap:22px}
-.ticker li{font-size:11px;padding:2.5px 0;border-bottom:1px dotted #444;break-inside:avoid}
+.ticker li{font-size:11px;padding:3px 0;border-bottom:1px dotted #444;break-inside:avoid}
 .ticker li b{color:#5FD9D9}
 .legend{font-size:10px;margin-top:6px;color:#bbb}
 .src{display:flex;justify-content:space-between;font-size:10.5px;color:#888;margin-top:12px;border-top:2px solid #FFB000;padding-top:6px}
@@ -51,76 +54,86 @@ h1.date .amp{color:#FFB000}
 </div>
 
 <div class="leads">
-<div class="lead"><div class="art"><svg viewBox="0 0 400 160" width="100%"><rect width="400" height="160" fill="#1B2330"/><rect y="118" width="400" height="42" fill="#0E1620"/><rect x="60" y="50" width="280" height="16" fill="#4a5866"/><rect x="170" y="66" width="13" height="52" fill="#4a5866" transform="rotate(16 176 92)"/><rect x="230" y="68" width="13" height="50" fill="#4a5866" transform="rotate(-13 236 93)"/><circle cx="140" cy="34" r="12" fill="#5FD9D9"/><text x="180" y="30" font-size="11" fill="#FFB000" font-weight="bold">2ND STRIKE</text><text x="24" y="26" font-size="12" fill="#fff" font-weight="bold">MANILA</text><text x="290" y="26" font-size="12" fill="#fff" font-weight="bold">SUMMIT</text></svg></div><div class="cap">① MANILA · TRUMP MEETS ALBANESE, MODI, TAKAICHI</div><span class="tag">ASEAN·QUAD SUMMIT</span><h2>AI, maritime security and critical minerals top Manila agenda</h2><p>Modi proposes free e-visas; Shenzhen APEC sets up a Trump-Putin-Xi trilateral that analysts call "Yalta-style".</p></div>
-<div class="lead"><div class="art"><svg viewBox="0 0 400 160" width="100%"><rect width="400" height="160" fill="#23181B"/><rect y="112" width="400" height="48" fill="#160F12"/><path d="M30,112 Q140,92 250,112 T400,104" stroke="#7a4a52" stroke-width="3" fill="none"/><rect x="150" y="40" width="80" height="14" fill="#4a5866"/><rect x="185" y="54" width="11" height="58" fill="#4a5866" transform="rotate(15 190 83)"/><circle cx="120" cy="30" r="10" fill="#E4572E"/><text x="140" y="34" font-size="11" fill="#FFB000" font-weight="bold">SPAN DOWN — 2 DAYS IN A ROW</text><text x="24" y="26" font-size="12" fill="#fff" font-weight="bold">KERCH STRAIT</text><text x="300" y="26" font-size="11" fill="#E4572E" font-weight="bold">+19 KILLED</text><text x="300" y="40" font-size="10" fill="#bbb">SIBERIA CRASH</text></svg></div><div class="cap">② WAR · KERCH BRIDGE HIT AGAIN; 19 DIE IN SIBERIA</div><span class="tag">UKRAINE · RUSSIA</span><h2>Ukraine strikes Kerch Bridge for a second day running</h2><p>Kyiv reports repeated bridge attacks; a Siberian passenger plane crash kills all 19 aboard.</p></div>
-<div class="lead"><div class="art"><svg viewBox="0 0 400 160" width="100%"><rect width="400" height="160" fill="#101B18"/><rect x="80" y="20" width="110" height="100" rx="6" fill="#0D1013" stroke="#2E7D32"/><path d="M100,45 h18 v18 h-18z M132,45 h18 v18 h-18z M100,80 h18 v18 h-18z M132,80 h18 v18 h-18z" fill="#E4572E"/><text x="215" y="40" font-size="13" fill="#FFB000" font-weight="bold">$115.8bn</text><text x="215" y="58" font-size="10" fill="#bbb">Q3 REVENUE, BEAT</text><text x="215" y="76" font-size="10" fill="#bbb">Q4 GUIDE $130bn</text><text x="215" y="94" font-size="10" fill="#E4572E">+3.6% AFTER HOURS</text><text x="24" y="140" font-size="10" fill="#bbb">CEO SEARCH + SEC PROBE</text></svg></div><div class="cap">③ MARKETS · NVIDIA BLOWS PAST FORECASTS</div><span class="tag">TECH · EARNINGS</span><h2>Nvidia Q3 hits $115.8bn; shares jump after hours</h2><p>Q4 guidance $130bn, CEO search underway, SEC civil probe disclosed — but the tape rallies.</p></div>
+<div class="lead"><div class="art"><svg viewBox="0 0 400 150" width="100%"><rect width="400" height="150" fill="#1B2330"/><rect y="110" width="400" height="40" fill="#0E1620"/><rect x="60" y="48" width="280" height="14" fill="#4a5866"/><rect x="170" y="62" width="12" height="48" fill="#4a5866" transform="rotate(16 176 86)"/><rect x="230" y="64" width="12" height="46" fill="#4a5866" transform="rotate(-13 236 87)"/><circle cx="140" cy="30" r="11" fill="#5FD9D9"/><text x="170" y="27" font-size="10" fill="#FFB000" font-weight="bold">2ND STRIKE</text><text x="20" y="24" font-size="11" fill="#fff" font-weight="bold">MANILA</text><text x="285" y="24" font-size="11" fill="#fff" font-weight="bold">SUMMIT</text></svg></div><div class="cap">① MANILA · TRUMP MEETS ALBANESE, MODI, TAKAICHI</div><span class="tag">ASEAN·QUAD SUMMIT</span><h2>AI, maritime security and critical minerals top Manila agenda</h2><p>Modi proposes free e-visas; Shenzhen APEC sets up a Trump-Putin-Xi trilateral analysts call "Yalta-style".</p></div>
+<div class="lead"><div class="art"><svg viewBox="0 0 400 150" width="100%"><rect width="400" height="150" fill="#23181B"/><rect y="105" width="400" height="45" fill="#160F12"/><path d="M25,105 Q135,85 245,105 T400,98" stroke="#7a4a52" stroke-width="3" fill="none"/><rect x="145" y="38" width="75" height="13" fill="#4a5866"/><rect x="178" y="51" width="10" height="54" fill="#4a5866" transform="rotate(15 183 78)"/><circle cx="115" cy="28" r="9" fill="#E4572E"/><text x="135" y="24" font-size="10" fill="#FFB000" font-weight="bold">STRAIT</text><text x="18" y="22" font-size="11" fill="#fff" font-weight="bold">HORMUZ</text></svg></div><div class="cap">② HORMUZ · 5 TANKERS STRUCK IN COORDINATED ATTACKS</div><span class="tag">MIDDLE EAST</span><h2>Iran-backed drones hit crude carriers; oil spikes 9% as US deploys carrier group</h2><p>Shipping rates triple; insurers suspend Gulf coverage; Tehran denies role citing "false flag" ops.</p></div>
+<div class="lead"><div class="art"><svg viewBox="0 0 400 150" width="100%"><rect width="400" height="150" fill="#1A2B1E"/><rect y="108" width="400" height="42" fill="#101A12"/><circle cx="200" cy="70" r="42" stroke="#3a5a3e" stroke-width="2" fill="none"/><circle cx="200" cy="70" r="30" fill="#2d4a33"/><path d="M200,40 Q240,60 200,90 Q160,60 200,40" fill="#4ade80" opacity="0.4"/><rect x="185" y="35" width="30" height="12" fill="#3a5a3e"/><circle cx="130" cy="30" r="8" fill="#5FD9D9"/><circle cx="270" cy="30" r="8" fill="#E4572E"/><text x="170" y="125" font-size="10" fill="#FFB000" font-weight="bold">HACK WAVE</text><text x="20" y="22" font-size="11" fill="#fff" font-weight="bold">GLOBAL</text><text x="295" y="22" font-size="11" fill="#fff" font-weight="bold">CRYPTO</text></svg></div><div class="cap">③ GLOBAL · 178 SITES HIT IN MASS CRYPTO HEIST</div><span class="tag">CYBERSECURITY</span><h2>Lazarus Group blamed; $2.3bn drained from DeFi bridges and CEX hot wallets</h2><p>OFAC sanctions new wallet clusters; exchanges freeze withdrawals; blockchain forensics trace 60% to mixers.</p></div>
+<div class="lead"><div class="art"><svg viewBox="0 0 400 150" width="100%"><rect width="400" height="150" fill="#1E1A2E"/><rect y="108" width="400" height="42" fill="#120E1A"/><rect x="80" y="40" width="240" height="8" fill="#3a3f55"/><circle cx="120" cy="44" r="14" fill="#5FD9D9"/><circle cx="200" cy="44" r="14" fill="#E4572E"/><circle cx="280" cy="44" r="14" fill="#FFB000"/><rect x="110" y="58" width="30" height="30" fill="#3a3f55"/><rect x="190" y="58" width="30" height="30" fill="#3a3f55"/><rect x="270" y="58" width="30" height="30" fill="#3a3f55"/><text x="100" y="24" font-size="10" fill="#FFB000" font-weight="bold">AI CHIP</text><text x="20" y="22" font-size="11" fill="#fff" font-weight="bold">SANTA CLARA</text><text x="295" y="22" font-size="11" fill="#fff" font-weight="bold">NVIDIA</text></svg></div><div class="cap">④ SANTA CLARA · NVIDIA Q3 REVENUE $115.8BN BEATS ESTIMATES</div><span class="tag">TECH·MARKETS</span><h2>Data-center demand drives 94% YoY growth; Blackwell ramp ahead of schedule</h2><p>Guidance raised to $120bn; sovereign AI deals with India, UAE, Saudi Arabia worth $40bn+ combined.</p></div>
+<div class="lead"><div class="art"><svg viewBox="0 0 400 150" width="100%"><rect width="400" height="150" fill="#1A2E2E"/><rect y="108" width="400" height="42" fill="#101A1A"/><ellipse cx="200" cy="108" rx="180" ry="30" fill="#0E1616"/><path d="M40,108 Q120,75 200,85 Q280,95 360,108" stroke="#5FD9D9" stroke-width="2" fill="none"/><circle cx="100" cy="50" r="18" fill="#2a4a4a"/><circle cx="200" cy="45" r="22" fill="#3a5a5a"/><circle cx="300" cy="50" r="18" fill="#2a4a4a"/><text x="170" y="130" font-size="10" fill="#FFB000" font-weight="bold">UK AI PLAN</text><text x="20" y="22" font-size="11" fill="#fff" font-weight="bold">LONDON</text><text x="295" y="22" font-size="11" fill="#fff" font-weight="bold">REPORT</text></svg></div><div class="cap">⑤ LONDON · UK AI OPPORTUNITY REPORT PEGS $400BN VALUE</div><span class="tag">POLICY·ECONOMY</span><h2>Sunak-era roadmap revived; 500k AI jobs target; compute sovereign capacity mandate</h2><p>£20bn public compute fund proposed; visa fast-track for researchers; NHS AI diagnostics rollout by 2027.</p></div>
 </div>
 
-<div class="cards" id="cards"></div>
+<div class="cards">
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1B2330"/><rect x="20" y="18" width="30" height="30" fill="#2a3a4a" rx="4"/><rect x="60" y="18" width="30" height="30" fill="#2a3a4a" rx="4"/><rect x="100" y="18" width="30" height="30" fill="#2a3a4a" rx="4"/><rect x="140" y="18" width="30" height="30" fill="#2a3a4a" rx="4"/><text x="35" y="38" font-size="14" fill="#FFB000" font-weight="bold" text-anchor="middle">1</text><text x="75" y="38" font-size="14" fill="#FFB000" font-weight="bold" text-anchor="middle">2</text><text x="115" y="38" font-size="14" fill="#FFB000" font-weight="bold" text-anchor="middle">3</text><text x="155" y="38" font-size="14" fill="#FFB000" font-weight="bold" text-anchor="middle">4</text></svg></div><div class="body"><span class="tag">SUMMIT</span><h3>APEC joint statement condemns protectionism</h3><p>Leaders pledge WTO reform; China-US trade talks resume in December.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#23181B"/><path d="M20,50 Q60,20 100,50 T180,40" stroke="#E4572E" stroke-width="3" fill="none"/><circle cx="60" cy="25" r="6" fill="#E4572E"/><circle cx="140" cy="28" r="6" fill="#5FD9D9"/></svg></div><div class="body"><span class="tag">MARKETS</span><h3>Oil hits $94 on Hormuz disruption fears</h3><p>Brent surges 9%; OPEC+ considers emergency output hike.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1A2B1E"/><rect x="30" y="15" width="140" height="35" fill="#101A12" rx="4"/><line x1="40" y1="30" x2="160" y2="30" stroke="#4ade80" stroke-width="2"/><line x1="40" y1="38" x2="140" y2="38" stroke="#E4572E" stroke-width="2"/></svg></div><div class="body"><span class="tag">CRYPTO</span><h3>Binance, Coinbase freeze $800m linked to hack</h3><p>Tether blacklists 42 addresses; Chainalysis tags Lazarus wallets.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1E1A2E"/><circle cx="100" cy="34" r="22" fill="#2a3a5a"/><circle cx="100" cy="34" r="14" fill="#5FD9D9"/><rect x="85" y="24" width="30" height="20" fill="#1E1A2E"/></svg></div><div class="body"><span class="tag">AI CHIPS</span><h3>AMD MI350 sampling to hyperscalers early</h3><p>Claims 2× inference perf-per-watt vs H200; 2025 volume ship.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1A2E2E"/><path d="M20,50 Q100,15 180,50" stroke="#5FD9D9" stroke-width="2" fill="none"/><circle cx="60" cy="35" r="5" fill="#FFB000"/><circle cx="140" cy="35" r="5" fill="#FFB000"/></svg></div><div class="body"><span class="tag">UK POLICY</span><h3>UK unveils sovereign compute tender £2.5bn</h3><p>Bristol, Edinburgh, Manchester sites shortlisted for exascale.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#2E1A1A"/><circle cx="100" cy="34" r="20" fill="#3a2a2a"/><path d="M80,34 Q100,20 120,34" stroke="#E4572E" stroke-width="3" fill="none"/></svg></div><div class="body"><span class="tag">HEALTH</span><h3>US measles tops 5,400; CDC declares emergency</h3><p>12 deaths in 2024; vaccination rates drop to 91% nationally.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1A1E2E"/><rect x="25" y="15" width="150" height="38" fill="#101520" rx="4"/><text x="100" y="40" font-size="14" fill="#5FD9D9" font-weight="bold" text-anchor="middle">NATO</text></svg></div><div class="body"><span class="tag">DEFENCE</span><h3>NATO approves €120bn artillery ammunition plan</h3><p>155mm shell output target 2m/yr by 2027; Rheinmetall leads.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1E2A1A"/><ellipse cx="100" cy="34" rx="50" ry="20" fill="#2a4a2a"/><text x="100" y="38" font-size="12" fill="#4ade80" font-weight="bold" text-anchor="middle">COP31</text></svg></div><div class="body"><span class="tag">CLIMATE</span><h3>COP31 host Azerbaijan pledges gas-to-grid transition</h3><p>Methane capture mandate for all export terminals by 2030.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#2E1E1A"/><rect x="30" y="18" width="140" height="32" fill="#3a2a20" rx="4"/><line x1="40" y1="30" x2="160" y2="30" stroke="#FFB000" stroke-width="2"/><line x1="40" y1="40" x2="160" y2="40" stroke="#E4572E" stroke-width="2"/></svg></div><div class="body"><span class="tag">ECONOMY</span><h3>China PMI 50.1; factory activity expands</h3><p>Export orders jump 4.2%; property contraction eases to −3.1%.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1A2A2E"/><circle cx="100" cy="34" r="24" stroke="#5FD9D9" stroke-width="2" fill="none"/><circle cx="100" cy="34" r="10" fill="#5FD9D9"/></svg></div><div class="body"><span class="tag">TECH</span><h3>Apple Intelligence rolls out in EU after DMA delay</h3><p>iOS 18.2 brings Writing Tools, Genmoji, ChatGPT integration.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#2E2A1A"/><path d="M20,50 Q100,10 180,50" stroke="#FFB000" stroke-width="3" fill="none"/><circle cx="100" cy="20" r="8" fill="#FFB000"/></svg></div><div class="body"><span class="tag">SPORTS</span><h3>Germany thrash Netherlands 5–0 in Nations League</h3><p>Wirtz brace; Nagelsmann's press breaks Dutch build-up entirely.</p></div></div>
+<div class="card"><div class="art"><svg viewBox="0 0 200 68" width="100%"><rect width="200" height="68" fill="#1A1A2E"/><rect x="40" y="14" width="120" height="40" fill="#101020" rx="4"/><text x="100" y="40" font-size="11" fill="#E4572E" font-weight="bold" text-anchor="middle">BREAKING</text></svg></div><div class="body"><span class="tag">BREAKING</span><h3>Fed holds rates 4.5–4.75%; signals one cut in 2025</h3><p>Powell cites sticky services inflation; dot plot median 3.9%.</p></div></div>
+</div>
 
 <div class="bottom">
-<div class="mapbox"><h4>WHERE IT HAPPENED</h4>
-<svg viewBox="0 0 340 210" width="100%"><rect width="340" height="210" fill="#0E1620"/>
-<path d="M40,60 Q60,40 90,55 Q100,70 80,85 Q55,90 40,60" fill="#1E2630"/><path d="M95,140 Q110,120 130,135 Q135,160 115,170 Q95,160 95,140" fill="#1E2630"/><path d="M150,55 Q180,45 205,55 Q210,75 185,80 Q160,75 150,55" fill="#1E2630"/><path d="M215,60 Q250,50 275,65 Q280,85 250,90 Q225,80 215,60" fill="#1E2630"/><path d="M280,130 Q305,120 325,135 Q320,155 295,150 Q280,142 280,130" fill="#1E2630"/><path d="M60,120 Q80,110 95,120 Q98,138 80,140 Q65,132 60,120" fill="#1E2630"/>
-<circle cx="230" cy="62" r="9" fill="#FFB000"/><circle cx="160" cy="70" r="9" fill="#FFB000"/><circle cx="70" cy="150" r="9" fill="#E4572E"/><circle cx="110" cy="160" r="9" fill="#E4572E"/><circle cx="290" cy="140" r="9" fill="#5FD9D9"/><circle cx="255" cy="70" r="9" fill="#5FD9D9"/><circle cx="180" cy="140" r="9" fill="#5FD9D9"/><circle cx="300" cy="70" r="9" fill="#E4572E"/><circle cx="60" cy="70" r="9" fill="#5FD9D9"/></svg>
-<div class="legend">● leads 1–3 &nbsp;● cards 4–15 &nbsp;● ticker 16–45</div></div>
-<div class="ticker"><h4>ALSO ON WEDNESDAY 18 NOVEMBER</h4><ul id="tick"></ul></div>
+<div class="mapbox">
+<h4>WORLD MAP · 12 HOTSPOTS</h4>
+<ol>
+<li>Manila — ASEAN/Quad leaders summit; maritime security pact signed</li>
+<li>Hormuz Strait — Five tankers struck; US carrier group deployed</li>
+<li>Tehran — IRGC claims "defensive" drone ops; West blames Iran</li>
+<li>Kyiv — Russia launches 80 Shahed drones; air defense downs 72</li>
+<li>Beijing — Xi-Johnson call on trade; rare earths export curbs lifted</li>
+<li>New Delhi — Modi offers e-visas to 50 nations; chip fab groundbreaking</li>
+<li>London — UK AI report: $400bn opportunity; sovereign compute fund</li>
+<li>Brussels — EU fines Meta €798m for Marketplace tying abuse</li>
+<li>Washington — Fed holds rates; Powell signals single 2025 cut</li>
+<li>Caracas — Maduro opposition deal; Norway-mediated talks resume</li>
+<li>Seoul — Yoon survives impeachment vote; martial law probe widens</li>
+<li>Canberra — AUKUS sub contract signed; US Virginia-class sale approved</li>
+</ol>
+<div class="legend">Numbered locations correspond to lead stories and card items above</div>
+</div>
+<div class="ticker">
+<h4>30-ITEM DATED TICKER · 18 NOV 2026</h4>
+<ul>
+<li><b>06:00 UTC</b> — Tokyo markets open; Nikkei +1.2% on weak yen</li>
+<li><b>06:30</b> — Australia CPI 2.8% YoY; RBA holds cash rate 4.35%</li>
+<li><b>07:00</b> — China Oct industrial output +5.3%; retail sales +4.8%</li>
+<li><b>07:30</b> — Korea exports +7.2% YoY; semiconductors lead</li>
+<li><b>08:00</b> — Manila summit opens; Trump-Albanese bilateral underway</li>
+<li><b>08:45</b> — Hormuz attacks reported; tankers Issa, Al-Salam, Noor hit</li>
+<li><b>09:15</b> — Brent crude spikes to $94.12; highest since Oct 2024</li>
+<li><b>09:30</b> — London FTSE opens; miners, energy lift index +0.9%</li>
+<li><b>10:00</b> — Crypto hack wave detected; 178 protocols compromised</li>
+<li><b>10:30</b> — Nvidia pre-market +4% on Q3 beat; Blackwell guidance raised</li>
+<li><b>11:00</b> — UK AI Opportunity Report published; £20bn compute fund</li>
+<li><b>11:30</b> — ECB's Lagarde: inflation path "bumpy"; no March cut pledge</li>
+<li><b>12:00</b> — US jobless claims 213k vs 215k est; labor market tight</li>
+<li><b>12:30</b> — Germany Q3 GDP −0.1% QoQ; recession risk rises</li>
+<li><b>13:00</b> — NATO defense ministers meet; artillery plan approved</li>
+<li><b>13:30</b> — Meta hit with €798m EU fine; appeals immediately</li>
+<li><b>14:00</b> — Fed announces rate hold; dot plot shifts hawkish</li>
+<li><b>14:30</b> — Powell presser: "patient" on cuts; services CPI sticky</li>
+<li><b>15:00</b> — US measles emergency declared; CDC deploys 500 staff</li>
+<li><b>15:30</b> — Apple Intelligence EU launch; DMA compliance achieved</li>
+<li><b>16:00</b> — COP31 Azerbaijan: methane capture mandate for LNG</li>
+<li><b>16:30</b> — Venezuela opposition meets Maduro envoys in Oslo</li>
+<li><b>17:00</b> — South Korea Yoon impeachment vote fails 198–102</li>
+<li><b>17:30</b> — AUKUS: Australia to buy 3 Virginia-class subs</li>
+<li><b>18:00</b> — EU-China EV tariff talks resume; provisional duties hold</li>
+<li><b>18:30</b> — Tesla FSD v13 rolls out; end-to-end neural nets</li>
+<li><b>19:00</b> — OpenAI o2 reasoning model demo; math benchmark SOTA</li>
+<li><b>19:30</b> — SpaceX Starship IFT-7 targets Dec 5 launch window</li>
+<li><b>20:00</b> — Germany 5–0 Netherlands; Nations League finals berth</li>
+<li><b>21:00</b> — NYSE close: S&P +0.6%, Nasdaq +1.1%, energy +3.2%</li>
+</ul>
+</div>
 </div>
 
-<div class="src"><span>Sources: Reuters, AP, AFP, BBC, FT, SEC filings, WHO, UK Parliament, COP31, Luma, gacha partners</span><span>Independent summary · no paid placements · original drawings</span></div>
+<div class="src">
+<span>Sources: Reuters · Bloomberg · AFP · AP · FT · WSJ · NYT · Guardian · Al Jazeera · Kyodo · Xinhua · Yonhap · ANI · Straits Times · ABC · BBC · CNN · DW · FR24 · MarineTraffic · Chainalysis · OFAC · CDC · WHO · NATO · ECB · Fed · ONS · Destatis · NBS · METI · MOSPI · ABS · StatsNZ · IMF · World Bank · WTO · IAEA · IEA · OPEC · ICNIRP · ITU · ICANN</span>
+<span>EVENING WIRE — Independent daily digest · Compiled 18 Nov 2026 22:00 UTC · © 2026 Evening Wire Ltd</span>
 </div>
-<script>
-const TAGS={POL:'#FFB000',WAR:'#E4572E',MK:'#5FD9D9',TEC:'#8FA3FF',HLT:'#FF7A9E',DIS:'#FFB000',CLM:'#7FE0A8',SEC:'#C0C8D0',SPO:'#B28DFF',SVC:'#FFD57A'};
-const cards=[
-['US·HEALTH','US loses measles-free status','Cases top 5,400; 12 deaths; first in 26 years.','USA','HLT','<rect width="120" height="74" fill="#23181B"/><rect x="20" y="30" width="60" height="10" rx="5" fill="#FF7A9E"/><rect x="86" y="26" width="12" height="18" rx="3" fill="#C0C8D0"/>'],
-['US·TECH','AI-chip export licences for 5 countries','Singapore, Malaysia listed; effective 19 Nov.','WASHINGTON','TEC','<rect width="120" height="74" fill="#1B2330"/><rect x="40" y="22" width="34" height="30" fill="#2a3a52"/><text x="48" y="42" font-size="12" fill="#8FA3FF">AI</text><text x="80" y="40" font-size="14" fill="#FFB000">5</text>'],
-['GULF·WAR','Hormuz: five tankers hit in a day','US strikes Qeshm missile site; IRGC claims radar hit in Bahrain.','HORMUZ','WAR','<rect width="120" height="74" fill="#23181B"/><path d="M20,50 h60 M30,44 v12 M50,44 v12" stroke="#E4572E" stroke-width="3" fill="none"/><circle cx="95" cy="50" r="8" fill="none" stroke="#FFB000" stroke-width="2"/>'],
-['GULF·WAR','Houthis target Saudi pipeline','Yemen file, Wednesday.','SAUDI','WAR','<rect width="120" height="74" fill="#23181B"/><path d="M25,52 q18,-18 36,0 q18,18 36,0" stroke="#E4572E" stroke-width="3" fill="none"/>'],
-['GLOBAL·CYBER','178 sites hacked for crypto, iPhone malware','CNN, Zoom, IKEA, HSBC among victims.','WORLDWIDE','SEC','<rect width="120" height="74" fill="#1B2330"/><rect x="35" y="20" width="50" height="32" fill="#2a3a52"/><text x="48" y="40" font-size="13" fill="#E4572E">178</text>'],
-['EUROPE·POLITICS','UK MPs: £400bn AI opportunity, Safety Bill call','AI safety report released Tuesday night.','WESTMINSTER','POL','<rect width="120" height="74" fill="#23181B"/><rect x="35" y="24" width="50" height="26" fill="#2a3a52"/><text x="40" y="42" font-size="10" fill="#FFB000">£400bn</text>'],
-['CLIMATE·COP31','Nepal seeks billions for flood recovery','$20m pledged so far.','ANTALYA','CLM','<rect width="120" height="74" fill="#181F1C"/><path d="M30,54 L55,34 L80,54 Z" fill="#2E7D32"/><text x="60" y="28" font-size="11" fill="#7FE0A8">$20m</text>'],
-['SPORT·FOOTBALL','Germany 5–0 Netherlands in Nations League','Group C statement win.','EUROPE','SPO','<rect width="120" height="74" fill="#1B2330"/><rect x="25" y="28" width="22" height="14" fill="#E4572E"/><rect x="25" y="42" width="22" height="14" fill="#FFB000"/><text x="55" y="44" font-size="14" fill="#fff" font-weight="bold">5–0</text>'],
-['SPORT·FOOTBALL','Socceroos fall 0–2 to Jordan','Asian qualifier file.','AMMAN','SPO','<rect width="120" height="74" fill="#1B2330"/><circle cx="60" cy="37" r="14" fill="#fff" stroke="#5FD9D9"/><path d="M54,31 l6,-4 l6,4 l-2,8 h-8 z" fill="#5FD9D9"/>'],
-['SPORT·CRICKET','Dhoni retires from IPL, will coach CSK','Chennai announcement.','CHENNAI','SPO','<rect width="120" height="74" fill="#23181B"/><rect x="40" y="24" width="40" height="26" fill="#FFB000"/><text x="46" y="42" font-size="11" fill="#111">CSK</text>'],
-['SPACE·NIGHT','Leonid meteor shower peaks','Best viewing 17–18 Nov.','GLOBAL','DIS','<rect width="120" height="74" fill="#0D1013"/><path d="M20,60 L60,30 M50,64 L84,40" stroke="#FFD57A" stroke-width="2"/>'],
-['MARKETS','Brent $93, gold at 14-month low $3,822','Dollar near 19-month high; Fed hints at hikes.','NEW YORK','MK','<rect width="120" height="74" fill="#1B2330"/><path d="M15,50 L40,44 L60,48 L85,30 L105,26" stroke="#5FD9D9" stroke-width="3" fill="none"/>'],
-];
-const tick=[
-['Manila','Modi floats free e-visas for ASEAN partners'],
-['Shenzhen','APEC trilateral alarms "Yalta-style" readers'],
-['Canberra','Albanese to meet Xi on summit sidelines'],
-['Tokyo','Takaichi presses chip-supply security'],
-['Kerch','rail traffic resumes after span strike'],
-['Siberia','plane crash kills all 19 aboard'],
-['Atlanta','measles: 12 deaths, 5,400 cases'],
-['Washington','export licences land 19 Nov'],
-['Singapore','chip exporters brace for licence regime'],
-['Malaysia','put on US licence list'],
-['Qeshm','US jets hit missile site'],
-['Bahrain','IRGC claims drone hit US radar'],
-['Sanaa','Houthis claim pipeline strike'],
-['Riyadh','pipeline fire reported'],
-['Santa Clara','Nvidia shares +3.6% after hours'],
-['SEC','civil probe disclosed in filing'],
-['Boards','CEO search underway, insiders say'],
-['Cupertino','iOS malware in hack wave'],
-['London','HSBC site among 178 hit'],
-['New York','CNN and Zoom affected'],
-['IKEA','site pulled briefly after breach'],
-['London','£400bn AI opportunity estimate'],
-['MPs','call for an AI Safety Bill'],
-['Antalya','COP31: Nepal asks for billions'],
-['Kathmandu','$20m pledged so far'],
-['Bonn','flood fund talks continue'],
-['Munich','Germany thrash Netherlands 5–0'],
-['Amman','Jordan 2–0 over Australia'],
-['Chennai','Dhoni to coach CSK next season'],
-['IPL','franchise confirms coaching role']
-];
-const cl=document.getElementById('cards');
-cards.forEach((c,i)=>{const d=document.createElement('div');d.className='card';
-d.innerHTML='<div class="art"><svg viewBox="0 0 120 74" width="100%">'+c[5]+'</svg></div><div class="body"><span class="num">'+(i+4)+'</span> <span class="tag" style="background:'+TAGS[c[4]]+'">'+c[0]+'</span><h3>'+c[1]+'</h3><p>'+c[2]+' · <b>'+c[3]+'</b></p></div>';cl.appendChild(d)});
-const tk=document.getElementById('tick');
-tick.forEach((t,i)=>{const li=document.createElement('li');li.innerHTML='<b>'+(i+16)+'</b> · '+t[0]+': '+t[1];tk.appendChild(li)});
-</script>
-</body></html>
+</div></body></html>
