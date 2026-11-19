@@ -1,3 +1,4 @@
+"""Copies entry.png from the script directory to the output directory specified by MAKEFUN_OUTPUT_DIR (default ./output)."""
 import os
 import shutil
 
@@ -17,5 +18,6 @@ def main():
     # Print the copied path
     print(dst_path)
 
+# MAKEFUN_OUTPUT_DIR specifies the output directory for copied entry.png (defaults to ./output)
 if __name__ == "__main__":
     main()
