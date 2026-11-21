@@ -1,110 +1,86 @@
 {
-  "day": "Wednesday",
-  "date": "18 November 2026",
-  "kicker": "ONE DAY OF WORLD NEWS, ONE PICTURE",
-  "stats": "33 STORIES · 12 COUNTRIES · ALL FROM WEDNESDAY 18 NOVEMBER 2026",
+  "day": "Friday",
+  "date": "20 November 2026",
+  "kicker": "THE WORLD IN ONE DAY · EVERY STORY DATED FRIDAY 20 NOVEMBER 2026",
+  "stats": [
+    { "n": "300,000+", "t": "evacuated ahead of Cyclone Akvan's landfall in Odisha" },
+    { "n": "~30", "t": "ballistic missiles fired at Kyiv in seven overnight waves" },
+    { "n": "-6.2%", "t": "Asia's worst stock week since 2020 as AI sell-off spreads" },
+    { "n": "2.3%", "t": "Japan October CPI, above 2% core for a second month" },
+    { "n": "118", "t": "Phillips' historic century against India in Wellington" },
+    { "n": "8 yrs", "t": "BepiColombo's cruise before its Mercury flyby" }
+  ],
+  "regions": [
+    ["EUROPE", 8], ["AMERICAS", 8], ["ASIA-PACIFIC", 10], ["MIDEAST", 3], ["AFRICA", 3], ["OCEANIA", 4]
+  ],
   "heroes": [
     {
-      "tag": "DIPLOMACY · APEC SHENZHEN",
-      "claim": "CONFIRMED — AP",
-      "headline": "Trump and Putin shake hands as Xi opens APEC in Shenzhen",
-      "body": "The US and Russian presidents meet in person for the first time since 2025; Xi defends free trade and warns against 'unilateralism' as a historic three-way summit is set for Thursday."
+      "tag": "01 · ODISHA, INDIA · CYCLONE",
+      "headline": "Cyclone Akvan makes landfall in eastern India",
+      "body": "Severe storm crosses near Gopalpur with gusts 90-100 mph; 300,000+ evacuated, 423 rescue teams deployed, schools shut across coastal districts.",
+      "claim": "Landfall ~8 am · IMD, The Hindu"
     },
     {
-      "tag": "AMERICAS · VENEZUELA",
-      "claim": "CONFIRMED — AP",
-      "headline": "US defence chief in surprise Caracas visit signs military cooperation deal",
-      "body": "Pete Hegseth meets acting President Delcy Rodríguez in Caracas; the agreement targets threats from 'foreign actors', ahead of a planned stop in Colombia on security cooperation."
+      "tag": "02 · KYIV, UKRAINE · WAR",
+      "headline": "Russia fires wave of ~30 ballistic missiles at Kyiv",
+      "body": "Seven overnight waves hit energy and transport sites; fires burn in three districts, Dutch and Austrian embassies damaged, at least three killed.",
+      "claim": "-30 MISSILES · Kyiv Post, Reuters"
     },
     {
-      "tag": "EUROPE · UKRAINE WAR",
-      "claim": "CLAIM — KYIV / CONFIRMED — AP",
-      "headline": "Russia hammers Odesa city centre; Ukraine says drones hit two oil refineries",
-      "body": "Three morning strikes on central Odesa kill 4 and injure 9, the regional governor says; Kyiv's General Staff confirms overnight hits on the Ilsky and Afip refineries in Krasnodar Krai."
+      "tag": "03 · ANTALYA, TÜRKIYE · CLIMATE",
+      "headline": "COP31 reaches its final day in deadlock",
+      "body": "Closing draft omits fossil-fuel phase-out while $120bn adaptation finance stays unresolved; hosts push a '35 by 35' clean-power goal.",
+      "claim": "UN CLIMATE SUMMIT · UN News, Reuters"
     }
   ],
   "cards": [
-    {
-      "icon": "virus",
-      "tag": "AMERICAS · HEALTH",
-      "claim": "CONFIRMED — CDC",
-      "headline": "US loses measles-free status",
-      "body": "5,400 cases and 12 deaths across 31 states; CDC warns importation risk from Europe surge as national MMR rates slip to 91%."
-    },
-    {
-      "icon": "chip",
-      "tag": "ASIA · TECH",
-      "claim": "CONFIRMED — NVIDIA",
-      "headline": "Nvidia Q3 revenue $115.8bn",
-      "body": "Beats by $4.2bn on Blackwell demand; data-center sales double YoY but China H20 export curbs weigh on Q4 guidance."
-    },
-    {
-      "icon": "ballot",
-      "tag": "AMERICAS · POLITICS",
-      "claim": "CONFIRMED — AP",
-      "headline": "Democrat Peltola wins Alaska Senate race",
-      "body": "Mary Peltola flips the seat, leaving two midterm races still uncalled nearly two weeks after election day."
-    },
-    {
-      "icon": "gamepad",
-      "tag": "CULTURE · GAMING",
-      "claim": "CONFIRMED — AP",
-      "headline": "GTA VI launch hit by glitches",
-      "body": "Rockstar's 13-years-in-the-making sequel crashes on consoles at launch; servers buckle under record demand."
-    },
-    {
-      "icon": "cloud",
-      "tag": "TECH · OUTAGE",
-      "claim": "CONFIRMED — APPLE",
-      "headline": "Apple iCloud, Pay and App Store outage",
-      "body": "Services wobble for hours on the day of a nationwide FEMA alert test; several bank apps report failures too."
-    },
-    {
-      "icon": "gavel",
-      "tag": "CULTURE · MEXICO",
-      "claim": "CONFIRMED — EL PAÍS",
-      "headline": "Mexico halts Christie's auction of a Frida Kahlo",
-      "body": "The government asks the auction house to clarify provenance of 'Congress of Peoples for Peace', believed to have left Mexico in 1952."
-    }
+    { "icon": "market", "tag": "04 · SEOUL/TOKYO · MARKETS", "headline": "AI sell-off sinks Asia to worst week since 2020", "body": "Nikkei -4.2%, SoftBank -16%, MSCI Asia-Pacific -7%.", "claim": "(Reuters)" },
+    { "icon": "space", "tag": "05 · MERCURY · SPACE", "headline": "BepiColombo reaches Mercury after 8 years", "body": "6.8km flyby; orbit insertion set for Saturday.", "claim": "(ESA, BBC)" },
+    { "icon": "flag", "tag": "06 · BRUSSELS · EUROPE", "headline": "Burnham holds first EU-UK reset summit", "body": "Trade, youth mobility and carbon-market links eyed.", "claim": "(EU Council)" },
+    { "icon": "chart", "tag": "07 · TOKYO · ECONOMY", "headline": "Japan inflation hits 2.3%; BoJ hike eyed", "body": "CPI core above 2% for a second month.", "claim": "(Reuters)" },
+    { "icon": "bank", "tag": "08 · BEIJING · DATES", "headline": "China holds lending rates for 18th month", "body": "1-year 3.0%, 5-year 3.5% as stimulus awaited.", "claim": "(PBOC, Reuters)" },
+    { "icon": "ball", "tag": "09 · WELLINGTON · CRICKET", "headline": "Phillips makes history with 118 vs India", "body": "First NZ batter with centuries in all 3 formats in a year.", "claim": "(ICC, AP)" },
+    { "icon": "vote", "tag": "10 · SAN SALVADOR · POLITICS", "headline": "Bukele registers for third-term bid", "body": "Files with electoral tribunal for Feb 2027 vote.", "claim": "(AP)" },
+    { "icon": "wave", "tag": "11 · SENEGAL · MIGRATION", "headline": "Migrant boat capsizes off Yenné coast; 4 dead", "body": "50-100 aboard as Canary Islands arrivals surge.", "claim": "(Guardian)" },
+    { "icon": "fist", "tag": "12 · ROME · LABOUR", "headline": "Italy's CGIL holds 24-hr general strike", "body": "Unions rally in 100+ squares against 2027 budget transit hit.", "claim": "(ANSA/AFP)" },
+    { "icon": "pill", "tag": "13 · BARCELONA · HEALTH", "headline": "Pancreatic cancer pill shrinks tumours 60.2%", "body": "Daraxonrasib + chemo beats chemo alone in early trial.", "claim": "(JAMA, Reuters)" }
   ],
   "also_on": [
-    ["EU offers Ukraine €45bn", "2027 support approved by the European Commission"],
-    ["Bukele confirms airstrike", "Haitian gang boss Jeff Larose's mansion destroyed"],
-    ["Russia 'false-flag' plot", "staged attack planned near Kaliningrad border — Rzeczpospolita"],
-    ["Sabotage wave on arms makers", "low-intensity attacks up sharply since summer"],
-    ["Sheinbaum meets Trump", "Mexico seeks steel and aluminium tariff relief"],
-    ["Xi, Sheinbaum herald 'new era'", "China and Mexico sign cooperation pacts"],
-    ["Foreign students shun the US", "new international enrolment down 15%"],
-    ["Immigrants paid in $14.6tn", "Cato study finds 124 years of fiscal surplus"],
-    ["ICC Rohingya ruling due", "Myanmar genocide verdict expected November 19"],
-    ["Brooklyn collapse probe", "history of violations behind building that killed 8"],
-    ["Pattinson is the new Bond", "Amazon MGM names its 007 for the next reboot"],
-    ["Five years after #FreeBritney", "the conservatorship fight still echoes"],
-    ["Cornyn blocks DOJ nominee", "Texas judicial vacancy stays open"],
-    ["Muslims to pass Christians by 2035", "Pew projects Islam becomes largest faith"],
-    ["Robots serve coffee in Shenzhen", "ice-cream and latte kiosks at the tech hub"],
-    ["New Oleshky-style aid mission", "Ukraine and Russia negotiate a second operation"],
-    ["NSA internal network down", "agency confirms an hours-long outage"],
-    ["Colombia's 'Christ the King' row", "De la Espriella phrase stirs old memories"],
-    ["FEMA alert test", "nationwide emergency message hits phones"],
-    ["Anthropic IPO details", "key terms of the AI lab's listing emerge"],
-    ["Clancy to face retrial", "the author's long-running suit returns to court"],
-    ["United resolves outage", "airline systems back after grounding"],
-    ["Medicare premiums rising", "2027 Part B costs climb again"],
-    ["Thanksgiving travel rush", "record airport crowds expected next week"]
+    ["BRASÍLIA", "Lula meet recognises indigenous lands in Roraima decree (Al Jazeera)"],
+    ["SEOUL", "Ruling party moves to impeach Chief Justice Cho Hee-dae (KBS)"],
+    ["BOUGAINVILLE", "Rio Tinto pledges $370m for Panguna mine legacy (Reuters)"],
+    ["FLORIDA", "St Johns River hits record 18.3 ft; four counties shut schools (AP)"],
+    ["TONGA", "Pacific kingdom declares emergency as 68 explosive barrels found (RNZ)"],
+    ["WASHINGTON", "Pentagon puts US war cost against Iran at $48.3bn (Reuters)"],
+    ["LONDON", "UK & Norway fund £100m for two Ukrainian naval vessels (BBC)"],
+    ["COPENHAGEN", "Denmark's parliament approves Greenland defence bill (AP)"],
+    ["JAKARTA", "Indonesia's parliament passes asset-forfeiture bill (Reuters)"],
+    ["GENEVA", "UN marks World Children's Day with school-access report (UN News)"],
+    ["CINCINNATI", "Zoo's famed hippo Fiona dies days after swallowing hat (AP)"],
+    ["ADDIS ABABA", "Four attacks on Red Sea vessels in 96 hours, UKMTO says (UKMTO)"],
+    ["NEW DELHI", "Pakistan minister to lead delegation to SCO dialogue (The Hindu)"],
+    ["DOHA", "U17 World Cup: Australia stun Argentina 4-2 (FIFA)"],
+    ["DURBAN", "Spinners take Proteas to first ODI win; Bavuma sets record (ICC)"],
+    ["HONG KONG", "Badminton Open semis set; two Russian bombers tracked (SCMP)"],
+    ["TAIWAN", "Short-sell curbs take effect as market steadies (Reuters)"],
+    ["MALLORCA", "Coello & Medina close on padel finals title (Padel Pro)"],
+    ["LOS ANGELES", "Thomas Markle ruled fit to stand trial (BBC)"],
+    ["WELLINGTON", "Nicholls' 175 in 216-run stand lifts New Zealand (ICC)"],
+    ["ROME", "Meloni unveils €12bn cut in labour taxes for 2027 (ANSA)"],
+    ["SÃO PAULO", "Real hits 4.85/US$ strongest month since 2023 (Reuters)"],
+    ["OSLO", "Nobel Peace laureate warns of AI-armed conflicts in address (AP)"]
   ],
   "map": {
-    "legend": ["Americas", "Europe", "Middle East", "Asia"],
+    "legend": ["Europe", "Americas", "Asia-Pacific", "Africa", "Mid East"],
     "pins": [
-      {"x": 200, "y": 140, "c": 0}, {"x": 218, "y": 132, "c": 0}, {"x": 95, "y": 95, "c": 0},
-      {"x": 240, "y": 225, "c": 0}, {"x": 250, "y": 195, "c": 0},
-      {"x": 500, "y": 112, "c": 1}, {"x": 492, "y": 100, "c": 1}, {"x": 455, "y": 88, "c": 1},
-      {"x": 505, "y": 140, "c": 2},
-      {"x": 655, "y": 175, "c": 3}, {"x": 690, "y": 215, "c": 3}, {"x": 620, "y": 205, "c": 3},
-      {"x": 600, "y": 190, "c": 3}
+      { "x": 208, "y": 128, "c": 0 }, { "x": 198, "y": 118, "c": 0 }, { "x": 214, "y": 122, "c": 0 },
+      { "x": 246, "y": 232, "c": 1 }, { "x": 118, "y": 208, "c": 1 }, { "x": 100, "y": 196, "c": 1 },
+      { "x": 232, "y": 210, "c": 2 }, { "x": 258, "y": 150, "c": 2 }, { "x": 270, "y": 142, "c": 2 },
+      { "x": 226, "y": 168, "c": 2 }, { "x": 96, "y": 246, "c": 3 }, { "x": 172, "y": 148, "c": 4 },
+      { "x": 186, "y": 138, "c": 4 }
     ]
   },
-  "date_check": "Left out on purpose because they broke on Tuesday 17 November, not Wednesday: the Kerch Bridge road-span strike (17 Nov), the An-12 crash near Kemerovo that killed all 19 aboard (17 Nov), the Prague head-on train collision (17 Nov), Mozambique's Mondlane going on trial (17 Nov), UK sanctions on eight settlement builders (17 Nov), and Iran's drones at the US radar in Bahrain with US strikes on Qeshm (17 Nov). Not yet: the full Trump–Putin–Xi trilateral is due Thursday 19 November, and the ICC's Myanmar ruling is expected the same day.",
-  "footer": "Every story here happened on, or was first reported on, Wednesday 18 November 2026 (or overnight into it). CLAIM = one side's account, not independently confirmed. Sources: AP · Reuters · AFP · Euronews · El País · The Guardian · NPR · PBS · Kyiv Independent · Al Jazeera · CNN · Yahoo News.",
-  "sources": "AP · REUTERS · AFP · EURONEWS · EL PAÍS · GUARDIAN · NPR · PBS · KYIV INDEPENDENT · AL JAZEERA"
+  "date_check": "First reported Thursday 19 Nov, so NOT shown as Friday's news: the Trump-Xi-Putin Shenzhen trilateral closing session; Anthropic's $63 IPO pricing; the An-12 crash report's final toll; GTA VI midnight-launch sales lines.",
+  "footer": "Every story here happened on, or was first reported on, Friday 20 November 2026 (or overnight into it). CLAIM = one side's account, not independently confirmed. Sources: Reuters · AP · AFP · BBC · IMD · UN News · The Hindu · Kyiv Post · Al Jazeera · The Guardian · ANSA · JAMA · ICC · FIFA · PBOC · ESA.",
+  "sources": "REUTERS · AP · AFP · BBC · IMD · UN NEWS · KYIV POST · AL JAZEERA · GUARDIAN · ANSA · ICC · ESA"
 }
