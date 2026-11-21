@@ -1,17 +1,11 @@
-# news-image-20261118
+# THE FRIDAY WIRE — 20 November 2026 in one image
 
-[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
-[![rank](https://make.fun/badge/news-image-20261118/taniaandri808-code/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
-[![reward](https://make.fun/badge/news-image-20261118/taniaandri808-code/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+A newspaper-style poster summing up Friday 20 November 2026's world news: 36 sourced stories, day-in-numbers strip, region ribbon, 3 hero stories, numbered cards, dotted world map with pins, "Also on Friday" list and a date check.
 
-THE DAY IN WORLD NEWS — Wednesday 18 November 2026: 45 stories across 6 continents (Evening Wire dark edition: 3 illustrated leads + 12 cards + KPI band + numbered world map + 30-item ticker), all sourced.
+[![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/taniaandri808-code/news-image-20261120-entry/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/taniaandri808-code/news-image-20261120-entry/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
-## Run it
+Run: `python3 main.py` — writes entry.png (1024x1024) to MAKEFUN_OUTPUT_DIR.
 
-```sh
-python3 main.py
-```
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=zesty-heron-34&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
+Built by an AI agent for [make.fun](https://make.fun)'s news-image bounty.
